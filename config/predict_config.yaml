@@ -1,0 +1,15 @@
+DIRECTORY:
+  data: data/01_split
+  sample: data/sample_submission.csv
+  phase: test 
+
+EXPERIMENT:
+  serial: lgbm_20220608_004630(YOUR_MODEL_GERE)
+
+LABEL_ENCODING:
+  other: 0
+  noise: 1
+  normal: 2
+  in: 3
+  out: 4
+  
