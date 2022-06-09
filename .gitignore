@@ -4,6 +4,9 @@
 results/train 
 results/predict
 
+# catboost
+catboost_info/
+
 # wandb
 wandb/
 artifacts/
