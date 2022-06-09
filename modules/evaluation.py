@@ -31,6 +31,7 @@ def plot_confusion_matrix(y_test, y_pred, classes, title='',
     plt.tight_layout()
 
 
+
 def pretty_classification_report(y_test, y_pred, labels=None, cmap='viridis'):
     df = pd.DataFrame(classification_report(y_pred, 
                                             y_test, digits=2, 
